@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(20, 6, 85);
+    margin: 0;
+}
+
+h1{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+#tabela1{
+    margin: 50px auto 100px;
+    width: 90%;
+}
+
+#tabela2{
+    margin: 0 auto 80px;
+    width: 20%;
+}
+
+td,th {
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+    width: 120px;
+}
+
+th{
+    position:sticky;
+    top: 0;
+    color: white;
+    background-color: rgb(119, 101, 0);
+}
+
+
+td{
+    background-color: rgb(204, 179, 36);
+}
