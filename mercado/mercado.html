@@ -1,34 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="mercadoStyle.css">
-    <script defer src="mercado.js"></script>
-</head>
-<body>
-    <table id="tabela1">
-        <thead>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="mercadoStyle.css">
+        <script defer src="mercado.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="cta" id="voltar" onclick="window.location = '../index.html'"><p>Voltar para home</p></div>
             <h1>Mercado</h1>
-            <tr>
-                <th class="cabeçalho1"></th>
-                <th class="cabeçalho1"></th>
-                <th class="cabeçalho1"></th>
-                <th class="cabeçalho1"></th>
-                <th class="cabeçalho1"></th>
-                <th class="cabeçalho1"></th>
-                <th class="cabeçalho1"></th>
-                <th class="cabeçalho1"></th>
-            </tr>
-        </thead>
-    </table>
+            <div class="cta" id="refresh" onclick="window.location.reload()"><p>Gerar novamente</p></div>
+        </header>
 
-    <h1>Perdas</h1>
-    <table id="tabela2">
-        <th class="cabeçalho2"></th>
-        <th class="cabeçalho2"></th>
-    </table>
-</body>
+        <main>
+            <table id="tabela1">
+                <thead>
+                    <h2>Produtos</h2>
+                    <tr>
+                        <th class="cabeçalho1"></th>
+                        <th class="cabeçalho1"></th>
+                        <th class="cabeçalho1"></th>
+                        <th class="cabeçalho1"></th>
+                        <th class="cabeçalho1"></th>
+                        <th class="cabeçalho1"></th>
+                        <th class="cabeçalho1"></th>
+                        <th class="cabeçalho1"></th>
+                    </tr>
+                </thead>
+            </table>
+            <h2>Perdas</h2>
+            <table id="tabela2">
+                <th class="cabeçalho2"></th>
+                <th class="cabeçalho2"></th>
+            </table>
+        </main>
+    </body>
 </html>

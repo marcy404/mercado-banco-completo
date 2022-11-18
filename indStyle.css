@@ -1,0 +1,94 @@
+:root {
+    font-size: 62%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    font-size: 1.6rem;
+    margin: 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #000E1C;
+}
+
+
+header {
+    background-color: #0C2D55;
+    border-radius: 8px;
+    box-sizing: border-box;
+    border: 4px solid #F0E700;
+    padding: 0.5em;
+    margin: 5rem 0;
+    user-select: none;
+}
+
+header > p {
+    font-size: 1.8rem;
+    text-decoration: underline;
+}
+
+
+main {
+    display: flex;
+    gap: 20%;
+}
+
+.card {
+    width: 50%;
+    height: fit-content;
+    border: 4px solid #F0E700;
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    box-sizing: border-box;
+    padding: 0.5rem;
+    border-radius: 10%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #0C2D55;
+    transition: 500ms ease;
+    user-select: none;
+}
+
+.card:hover {
+    transition: 500ms ease;
+    transform: scale(1.2);
+    cursor: pointer;
+    box-shadow: #000E1C 20000px;
+    color: black;
+    background-color: #F0E700;
+    border: 5px solid #0C2D55;
+}
+.card:hover > .gambirras {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-color: black;
+}
+
+.mask-image {
+    height: 20rem;
+    width: 20rem;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+
+#mask-banco {
+    background-image: url(imagens/banco_card.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#mask-mercado {
+    background-image: url(imagens/mercado_card.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
